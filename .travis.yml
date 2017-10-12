@@ -38,6 +38,4 @@ install:
 script:
   - bin/nosetests -d lalouve_test -- -v -s intercoop_addons/ louve_addons/ --with-coverage
   - flake8 louve_addons/
-
-after_success:
   - coveralls
