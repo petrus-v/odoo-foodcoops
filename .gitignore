@@ -88,3 +88,4 @@ ENV/
 anybox.recipe.odoo/
 bin/
 etc/
+community-addons/
